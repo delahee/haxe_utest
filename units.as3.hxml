@@ -1,0 +1,43 @@
+-cp src
+-swf bin/units.swf
+-swf-header 800:600:30:FFFFFF
+-swf-version 19.0
+-main Main
+
+--next
+-cp src
+-js bin/units.js
+-main Main
+
+--next
+-cp src
+-debug
+-cpp bin/units.cpp
+-main Main
+
+--next
+-cp src
+-debug
+-neko bin\units.n
+-main Main
+
+--next
+-cp src
+-debug
+-python bin\units.py
+-main Main
+
+--next
+-cp src
+-php bin/units.php
+-main Main
+
+--next
+-cp src
+-java bin/units.java
+-main Main
+
+--next
+-cp src
+-cs bin/units.cs
+-main Main
